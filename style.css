@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.sky{
+  height: 15rem;
+  background-color: rgb(197, 234, 249);
+}
+
+.grass{
+  height: 12rem;
+  color: rgb(14, 109, 14);
+  background-color: rgb(14, 109, 14);
+}
+
+.roads{
+  height: 11.5rem;
+  background-color: rgb(51, 51, 51);
+
+  
+}
+
+.lines{
+  border-top: 20px dashed white;
+    margin-top: -10%;
+    
+}
+
+
