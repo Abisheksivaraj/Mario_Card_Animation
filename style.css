@@ -1,46 +1,46 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
 
-.sky{
+.sky {
   height: 15rem;
   background-color: rgb(197, 234, 249);
   position: relative;
   z-index: 1;
 }
 
-.grass{
+.grass {
   height: 12rem;
   width: 100%;
   color: rgb(14, 109, 14);
   background-color: rgb(14, 109, 14);
   position: relative;
-    z-index: 1;
+  z-index: 1;
 }
 
-.roads{
+.roads {
   height: 11.5rem;
   background-color: rgb(51, 51, 51);
-width: 100%;
-  
+  width: 100%;
+
 }
 
-.lines{
+.lines {
   border-top: 20px dashed white;
-    margin-top: -10%;
-    width: 100%;
-    position: relative;
+  margin-top: -6%;
+  width: 100%;
+  position: relative;
 }
 
-.red-mario{
+.red-mario {
 
   width: 5rem;
   position: absolute;
@@ -52,17 +52,17 @@ width: 100%;
   animation-iteration-count: infinite;
 }
 
-.green-mario{
+.green-mario {
 
   width: 5rem;
-    position: relative;
-    bottom: 3rem;
-    left: 0rem;
-    left: 0rem;
-    z-index: 2;
-    animation-name: green-mario;
-    animation-duration: 3.2s;
-    animation-iteration-count: infinite;
+  position: relative;
+  bottom: 3rem;
+  left: 0rem;
+  left: 0rem;
+  z-index: 2;
+  animation-name: green-mario;
+  animation-duration: 3.2s;
+  animation-iteration-count: infinite;
 }
 
 
@@ -84,7 +84,7 @@ width: 100%;
   z-index: -1;
   opacity: 0.5;
   animation-name: cloud-2-slidein;
-  animation-duration: 40s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
 }
 
@@ -95,7 +95,7 @@ width: 100%;
   }
 
   to {
-    margin-left: 110%;
+    margin-left: 100%;
   }
 }
 
@@ -105,7 +105,7 @@ width: 100%;
   }
 
   to {
-    margin-left: 110%;
+    margin-left: 100%;
   }
 }
 
@@ -128,4 +128,3 @@ width: 100%;
     margin-left: 100%;
   }
 }
-
